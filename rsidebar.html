@@ -32,10 +32,7 @@
 
 	[mod]sys:jsvar[/mod]
 	
-	<link href="/tt/[bkvar]ttowner[/bkvar]/css/main.css?v=0.1" type="text/css" rel="stylesheet" />
-	<link href="/tt/[bkvar]ttowner[/bkvar]/css/main2.css?v=0.1" type="text/css" rel="stylesheet" />
-	<link href="/tt/[bkvar]ttowner[/bkvar]/css/baby-blue.css?v=0.1" type="text/css" rel="stylesheet" />
-	
+	<link rel="stylesheet" href="/tt/[bkvar]ttowner[/bkvar]/css/main.css?v=0.1" type="text/css" />
 	[bkvar]css[/bkvar]
 
 	[bkvar]js[/bkvar]
@@ -43,9 +40,6 @@
 	<link rel="stylesheet" href="/tt/[bkvar]ttowner[/bkvar]/css/override.css?v=0.1" type="text/css" />
 
 	[mod]rss:meta[/mod]
-	
-	<script src="/tt/[bkvar]ttowner[/bkvar]/js/rainbow-custom.min.js"></script>
-	
 </head>
 <body>
 
@@ -84,50 +78,28 @@
 		<div id="bd">
 			<div class="gwrap">
 				<div class="pure-g">
-					<div class="pure-u-1">
+					<div class="pure-u-3-4">
 						<div class="content">
 							[mod]sitemap:breadcrumb[/mod]
 							[tt]content[/tt]
 						</div>
 					</div>
+					<div class="pure-u-1-4">
+						<div class="sidebar">
+							<div class="sidebaritem">
+								<div class="contacts box">
+									sidebar
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-
-
-		<div id="ft" class="legal pure-g-r">
+		<div id="ft">
 			<div class="gwrap">
-				<div id="footer-container" class="">
-					<div class="pure-u-2-5">
-						<div class="l-box">
-							<p class="legal-license">
-								This site is built with using Abricos.js v0.1<br> All code
-								on this site is licensed under the <a
-									href="https://github.com/abricos/abricos.js/blob/master/LICENSE">MIT
-									License (MIT)</a> unless stated otherwise.
-							</p>
-						</div>
-					</div>
-					<div class="pure-u-1-5">
-						<div class="l-box legal-logo">
-							<a href="http://abricosjs.org/"> <img width="50" height="50"
-								alt="Abricos logo" src="/tt/[bkvar]ttowner[/bkvar]/img/logo-footer.png">
-							</a>
-						</div>
-					</div>
-					<div class="pure-u-2-5">
-						<div class="l-box">
-							<ul class="legal-links">
-								<li><a href="https://github.com/abricos/abricos.js">GitHub Project</a></li>
-							</ul>
-							<p class="legal-copyright">
-								&copy; 2013 Abricos.js. All rights reserved<br />
-								Powered by <a href="http://abricos.org" title="Abricos - Content Management System (CMS), Web Application Platform (WebOS)">Abricos Platform</a>
-							</p>
-							
-						</div>
-					</div>
-				</div>
+				<p>&#169; [ph]sys:site_name[/ph] - all rights reserved. Powered by <a href="http://abricos.org" title="Abricos - Content Management System (CMS), Web Application Platform (WebOS)">Abricos</a> [var]version[/var]</p>
+				
 			</div>
 		</div>
 	</div>
