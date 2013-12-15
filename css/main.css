@@ -44,11 +44,16 @@ a, a:visited {
 
 #doc #hd #userauthblock {
 	position: absolute;
-	top: 13px;
-	right: 0;
+	top: 15px;
+	right: 80px;
 }
 #userblock .autuser #appbosuilist {
 	z-index: 1000;
+}
+
+#doc #hd .langblock {
+	text-align: right;
+	padding-top: 15px;	
 }
 
 /* * * BODY CONTENT * * */

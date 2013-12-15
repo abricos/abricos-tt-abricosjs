@@ -19,6 +19,9 @@
 
 [mcss=sys]widget.css[/mcss] // Будет удалет. Оставлен для совместимости
 
+[ph=sys:counter][/ph]
+[ph=sys:langwidget][/ph]
+
 [*]--><!DOCTYPE html>
 <html lang="ru" class="yui3-loading">
 <head>
@@ -46,6 +49,8 @@
 	
 	<script src="/tt/[bkvar]ttowner[/bkvar]/js/rainbow-custom.min.js"></script>
 	
+	[ph]sys:counter[/ph]
+	
 </head>
 <body>
 
@@ -65,7 +70,10 @@
 								[ph]sys:site_title[/ph]
 							</div>
 						</div>
-						
+
+						<div class="pure-u-1-4 langblock">
+							[ph]sys:langwidget[/ph]
+						</div>						
 					</div>
 					<div id="userauthblock">
 						<div class="small smalluserblock">
